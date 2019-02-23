@@ -7,18 +7,33 @@
 //
 
 import UIKit
+import Moran
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var button: UIButton!
+    
+    var transition: Moran?
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        configurateButton()
+    }
+    
+    @IBAction func didButtonPressed(_ sender: UIButton) {
+        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+        if let detailViewController = storyboard.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController {
+            
+            detailViewController.modalPresentationStyle = .custom
+            detailViewController.transitioningDelegate = self.transition
+            present(detailViewController, animated: true)
+        }
+
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func configurateButton() {
+        button.layer.cornerRadius = 20.0
+        self.transition = Moran(animatedView: button, transitionDuration: 0.5)
     }
-
 }
 
