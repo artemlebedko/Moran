@@ -1,0 +1,6 @@
+framework module Moran {
+  umbrella header "Moran-umbrella.h"
+
+  export *
+  module * { export * }
+}

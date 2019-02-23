@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Moran_Example' do
+  pod 'Moran', :path => '../'
+
+  target 'Moran_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module Pods_Moran_Tests {
+  umbrella header "Pods-Moran_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

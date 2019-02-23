@@ -1,0 +1,16 @@
+PODS:
+  - Moran (0.1.0)
+
+DEPENDENCIES:
+  - Moran (from `../`)
+
+EXTERNAL SOURCES:
+  Moran:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Moran: c3e7c87a8245a25a7e8590606dbd2035baad69df
+
+PODFILE CHECKSUM: 1d65f168a688364d7a5d82ebd96d89eb3f70c04c
+
+COCOAPODS: 1.6.0
