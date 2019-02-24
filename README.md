@@ -1,10 +1,6 @@
 # Moran
-
-![Xcode 9.0+](https://img.shields.io/badge/Xcode-9.0%2B-blue.svg)
-![iOS 9.0+](https://img.shields.io/badge/iOS-9.0%2B-blue.svg)
 ![Swift 4.2+](https://img.shields.io/badge/Swift-4.2%2B-orange.svg)
 ![Platform iOS](https://img.shields.io/badge/Platform-iOS-blue.svg)
-
 [![Version](https://img.shields.io/cocoapods/v/Moran.svg?style=flat)](https://cocoapods.org/pods/Moran)
 [![License](https://img.shields.io/cocoapods/l/Moran.svg?style=flat)](https://cocoapods.org/pods/Moran)
 
