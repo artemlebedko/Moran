@@ -36,7 +36,10 @@ self.transition = Moran(animatedView: button, transitionDuration: 0.5)
 
 ## Author
 
-artemlebedko, artemlebedko@gmail.com
+Artem Lebedko, artemlebedko@gmail.com
+
+## Special 
+Thanks to [JTMaterialTransition](https://github.com/jonathantribouharet/JTMaterialTransition)! I referred a lot to this project.
 
 ## License
 
