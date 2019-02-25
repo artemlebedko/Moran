@@ -34,6 +34,11 @@ let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
 self.transition = Moran(animatedView: button, transitionDuration: 0.5)
 ```
 
+You can change transitionDuration as you wish. Default value is 0.3 second.
+```
+Moran(animatedView: someViewToStart, transitionDuration: 0.1)
+```
+
 ## Author
 
 Artem Lebedko, artemlebedko@gmail.com
